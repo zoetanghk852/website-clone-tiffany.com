@@ -1,0 +1,203 @@
+
+    body{
+        margin: 0px;
+    }
+
+    .header-top{
+        display: flex;
+        background-color: rgb(255, 255, 255); 
+        align-items: center;
+        justify-content: space-between;
+        border-top:8px solid #81d8d0;
+         margin-right: 10px;
+        
+    }
+
+    .header-top-left,.wecomeback p,.workhour>p,.footer-butter{
+        display: flex;
+    }
+
+    .box-1{
+        margin-left: 20px;
+
+    }
+    
+
+    .header-top-left>img , .header-top-right>img ,.header-bot>ul>li {
+        margin-right: 20px;
+    }
+
+    .contactuslist ,#header3{
+        margin-right: 90px;
+
+    }
+
+    .contactus, .futerproblme{
+        font-family: Sterling Display A,Sterling Display B,PMingLiU,Apple LiSung Light,serif;
+    }
+
+    .contactuslist ,.info{
+        font-family: Sterling Display A,Sterling Display B,PMingLiU,Apple LiSung Light,serif;
+        font-size: 14px;
+        line-height:23.94px;
+    }
+
+
+    .header-bot>ul,.breadcrumb__container a{
+        font-family: "Arial Unicode MS",Arial,Helvetica,微正黑軟體,Microsoft JhengHei,STHeit,sans-serif; 
+
+    }
+
+    .breadcrumb__container {
+        font-size: .875rem;
+        padding: 16px 0;    
+        border-top: 3px solid #81d8d0;
+        border-bottom: 8px solid #81d8d0;
+        padding: 15px;
+        text-align: center;
+    }
+        
+
+    .contactus, .header-bot>ul,.wecomeback p,.serviceicon, .serviceicon img , .serviceicon img div,.serviceh1{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    #logo , #workhour p, .workhour, .wecomeback {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    #logo , .header-bot>ul,#contactuslist{
+        list-style-type: none;
+    }
+
+
+    #hearder_banner{
+        height: 320px;
+        width:100%;
+        background-image: url(img/hearder_banner.webp);
+        background-size:cover;
+    }
+
+    .contactuslist li{
+        list-style-type: none;
+        margin-bottom: 25px;
+    }
+
+    #header3{
+        height: 360px ;
+        width:400px;
+    }
+
+   #p1{
+        font-weight:900;
+    }
+
+    .wecomeback{
+        background-color: #eff9f9;
+        padding: 60px;
+
+    }
+
+    .icon{
+        height: 283px;
+        width: 296px;
+        margin: 44px;
+    }
+    
+  
+    .futerproblme{
+        border-top:3px solid #81d8d0;
+        font-size: 2rem;
+        line-height: 1.25;
+        padding: 5px 20px 12px;
+    }
+
+    
+    .leftcontainer{
+        background-color:pink;
+
+    }
+    .rightcontainer{
+        background-color:rgb(0, 204, 255);
+    }
+    
+    .item{
+        display: flex;
+        flex-direction: column;
+        padding: 14px;
+        box-sizing: border-box;
+        width: 380px;
+        text-align: center;
+    }
+
+
+    .footer{
+        display: flex;
+        height: 330px;
+        background-color:#81d8d0;
+    }
+
+    .footer-lefttop{
+        background-color: pink;
+        flex: 1;
+        display: flex;
+    }
+
+    .footer-info{
+        display: flex;
+    }
+
+    .footer_right{
+     box-sizing: border-box;
+    width: 300px;
+    height: 330px;
+    background-color: bisque;
+    padding: 23px;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .footerinfo{
+        margin-left: 36px;
+        font-size: .75rem;
+        line-height: 3.33;
+        list-style: none;
+    }
+    
+    .footer_icon{
+        height: 5px;
+    }
+
+    .footer_righticon img{
+        width:25px;
+        padding-right: 5px;
+    }
+
+    .footer_rightwrepper{
+        flex: 1;
+    }
+    
+    .footerwrepper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-left,.leftbottomP{
+        flex-grow: 1;
+        margin-left: 5px;
+    }
+
+    .footer-leftbottom{
+        display: flex;
+        margin: 5px;
+    }
+   
+    /* id will override class element */
+
+  
